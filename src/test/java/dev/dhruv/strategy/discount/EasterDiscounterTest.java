@@ -4,7 +4,7 @@ import org.junit.jupiter.api.Test;
 
 public class EasterDiscounterTest {
 
-    private Discounter easterDiscounter = new EasterDiscounter();
+    private final Discounter easterDiscounter = new EasterDiscounter();
 
 
     @Test
