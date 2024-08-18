@@ -1,4 +1,4 @@
-package dev.dhruv.observer;
+package dev.dhruv.observer.weather;
 
 public class TvDisplay implements IObserver {
     private String weather;

@@ -1,4 +1,4 @@
-package dev.dhruv.observer;
+package dev.dhruv.observer.weather;
 
 import java.util.ArrayList;
 import java.util.List;

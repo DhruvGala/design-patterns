@@ -1,9 +1,5 @@
 package dev.dhruv.observer.weather;
 
-import dev.dhruv.observer.IObserver;
-import dev.dhruv.observer.PhoneDisplay;
-import dev.dhruv.observer.TvDisplay;
-import dev.dhruv.observer.WeatherStation;
 import org.junit.jupiter.api.Test;
 
 

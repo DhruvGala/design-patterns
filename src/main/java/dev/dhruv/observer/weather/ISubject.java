@@ -1,4 +1,4 @@
-package dev.dhruv.observer;
+package dev.dhruv.observer.weather;
 
 public interface ISubject {
     void addObserver(IObserver observer);
