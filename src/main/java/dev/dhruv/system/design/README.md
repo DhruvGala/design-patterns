@@ -41,3 +41,9 @@ We often measure availability in terms of uptime and downtime. Here's is where S
 * SLOs are like setting goals for our system's performance and availability. For e.g. we may set out SLOs for 99.9% availability and out service should respond to user requests within 300ms.
 * SLAs on the other hand are like a formal contract with our users/customers. They define the minimum level of service we are commiting to provide. For e.g. if we are commiting to 99.99% availability and if it drops below that, then our customers/users are entitled to refunds.
 
+To measure resilience of our system we define following three concepts: Reliability, Fault Tolerance and Redundancy.
+
+- Reliability means the system works correctly and consistently.
+- Fault Tolerance is about preparing when things go wrong, how does our system tolerate unexpected failures or attacks.
+- Redundancy is about having backups, if one part of our system fails then there is another ready to take its place.
+![img.png](../../../../../resources/availability_2.png)
