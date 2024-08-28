@@ -8,7 +8,7 @@ When we are talking about good design, we want to concentrate on few key princip
 3. Efficiency: making the best use of our resource.
 3. Reliability: everything is running smoothly, but maintains composer when things go wrong. 
  
-## At the heart of system desgin there are three key elements:
+## At the heart of system design there are three key elements:
 
 1. Moving Data: Ensuring data can flow seemlessly from one part of our system to another.
 2. Storing Data Not just choosing which database to use for storing the data, but:
@@ -24,8 +24,20 @@ It is a set of principles that guide us in making informed tradeoffs in three ke
 2. Availability
 3. Partition Tolerance
 
-![img.png](../../../../../resources/img.png)
+![img.png](../../../../../resources/cap_theorem.png)
 
 * Consistency ensures that all the nodes of the distributed system have the same data at the same time. If we make a change to one node, that change should also be reflected on all the nodes.
 * Availability means the system is always operational and responsive to requests.
 * Partition Tolerance means the system's ability to continue functioning even when disruption occurs in network.
+ 
+#### Availability
+
+Is out system up and running when our users need it? This is often measured in terms of percentage, with 99.999% that means just 5 minutes of downtime per year, if we have let's say 99.9% that still accounts to 8.76 hrs of downtime per year.
+
+![img.png](../../../../../resources/availability.png)
+
+We often measure availability in terms of uptime and downtime. Here's is where Service Level Objectives (SLO) and Service Level Agreements (SLA) come to play.
+
+* SLOs are like setting goals for our system's performance and availability. For e.g. we may set out SLOs for 99.9% availability and out service should respond to user requests within 300ms.
+* SLAs on the other hand are like a formal contract with our users/customers. They define the minimum level of service we are commiting to provide. For e.g. if we are commiting to 99.99% availability and if it drops below that, then our customers/users are entitled to refunds.
+
