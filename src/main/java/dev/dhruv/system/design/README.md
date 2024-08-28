@@ -10,7 +10,7 @@ When we are talking about good design, we want to concentrate on few key princip
  
 ## At the heart of system design there are three key elements:
 
-1. Moving Data: Ensuring data can flow seemlessly from one part of our system to another.
+1. Moving Data: Ensuring data can flow seamlessly from one part of our system to another.
 2. Storing Data Not just choosing which database to use for storing the data, but:
    1. Access Patterns 
    2. Indexing Strategies 
