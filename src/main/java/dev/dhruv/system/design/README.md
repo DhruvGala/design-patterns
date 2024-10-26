@@ -47,3 +47,12 @@ To measure resilience of our system we define following three concepts: Reliabil
 - Fault Tolerance is about preparing when things go wrong, how does our system tolerate unexpected failures or attacks.
 - Redundancy is about having backups, if one part of our system fails then there is another ready to take its place.
 ![img.png](../../../../../resources/availability_2.png)
+
+### Speed
+We also need to measure the speed of our system, and for that we have Throughput and Latency.
+- **Throughput**: how much data our system can handle over a certain period of time. 
+- Server Throughput measured using Requests per Second (RPS). A higher RPS value typically indicated better performance the ability to handle more concurrent users.
+- Database Throughput measured using Queries per Second (QPS). 
+- There is also Data Throughput which is measured using Bytes per Second (B/s)
+
+- **Latency**: how long it takes to handle a single request.
