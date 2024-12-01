@@ -56,3 +56,30 @@ We also need to measure the speed of our system, and for that we have Throughput
 - There is also Data Throughput which is measured using Bytes per Second (B/s)
 
 - **Latency**: how long it takes to handle a single request.
+
+## Networking Basics
+- when two computers communicate over a network, they send and receive packets of data.
+- Each data packet consists of IP header which contains the IP addresses of sender and receiver.
+- This process is governed by Internet Protocol (IP) 
+### Internet Protocol (IP)
+- which is a set of rules that defines how data is sent and received.
+### Application Layer Protocols 
+- (e.g. HTTP for web browsing)
+### Transport Layer Protocols
+- this consists of TCP and UDP.
+- Transmission Control Protocol (TCP) operates at the Transport Layer and ensures reliable communication. TCP not only makes sure that the data is delivered but the nothing is missing. TCP is known for its reliability.
+- It uses sequence number to govern the complete delivery of data packets, and uses 3-way handshake to establish stable connection.
+- In Contrast, User Datagram Protocol (UDP) is faster but less reliable. It doesn't establish a connection before sending the data and doesn't guarantee the delivery or order of the packets.
+- eg. voice/video call, where faster data transmission is preferred over occasional loss of data.
+
+### Domain Name System (DNS)
+- It acts like the internet phonebook which translates human friendly domain names into IP addresses. 
+![img.png](../../../../../resources/dns.png)
+- DNS is overseen by ICANN (Internet Corporation for Assigned Names and Numbers), which coordinates the global IP address space and domain name system.
+
+### Networking Infrastructure
+- devices on a network have either public or private IP addresses.
+- public IP addresses are unique globally, while private IP addresses are unique within the local network.
+- Devices within a LAN (Local Area Network), can directly communicate with each other. We have a Firewall for monitoring and controlling incoming and outgoing traffic, based on security policies.
+- Withing a devices, specific processes or services are identified by ports, which when combined with IP address create a unique identifier for a network service.
+- Some ports are reserved for a specific protocols, like `80` for `HTTP` or `22` for `SSH`.
